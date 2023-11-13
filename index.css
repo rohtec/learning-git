@@ -1,1 +1,10 @@
-*{ color: red; }
+* {  
+    border: 1px solid black;
+    color: blue;
+    height: 6rem;
+ }
+*, *::before, *::after {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
